@@ -1,0 +1,24 @@
+Name:		Xiaoyang Zhang
+B-Number:	B00708854
+Email:		xzhan211@binghamton.edu
+
+All DONE.
+
+Note:
+1. Please follow this order to add documents(I dont do too much robust design):
+  clear -> add noise -> add docs -> can test
+
+2. Do not add the same docs from same file directly.
+   the better way is clear first, then add docs again.
+
+3. Can add docs from different files directly. no need to clear firstly.
+  Just like the test case.
+
+4. When add REAL docs set, please wait 12 seconds.
+  Because I want to get the shorter preprocess time, 
+  I just create the main index table in close function, before close database.
+  So the time counter in this part is not accurate.
+  I count it by myself, less than 12 seconds, 
+  much faster than the guideline log's(26 seconds).
+
+ 
